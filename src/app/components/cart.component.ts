@@ -22,14 +22,17 @@ import {
             <span class="fw-bold">{{ item.name }}</span> -
             {{ item.description }}
             <span class="badge bg-dark rounded-pill float-end">
-              {{ item.price | currency: 'EUR' }}
+              {{ item.price | currency }}
             </span>
           </li>
         </ul>
         <!-- form -->
         <form [formGroup]="buyForm">
-          <div class="form-group" formGroupName="uInfo">
-            <h5>Completa ordine</h5>
+          <div class="form-group mt-4" formGroupName="uInfo">
+            <h5>
+              Completa ordine ora:
+              <i>{{ today | date: 'EEEE dd MMMM yyyy' }}</i> , spedizioni in 24h
+            </h5>
             <label class="col-sm-2 col-form-label">Nome:</label>
             <div class="col-sm-12">
               <input
@@ -91,12 +94,15 @@ import {
       input.ng-valid {
         border-left: 7px solid rgba(0, 128, 0, 0.5);
       }
+      i {
+        color: green;
+      }
     `,
   ],
 })
 export class CartComponent implements OnInit {
   prodList!: Product[];
-
+  today = new Date(); // I imported the local date and currency in appModule
   buyForm!: FormGroup;
 
   constructor(private cartSrv: CartService, private fb: FormBuilder) {}
