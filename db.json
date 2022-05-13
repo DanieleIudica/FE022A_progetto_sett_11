@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Airpods",
+      "price": 99.99,
+      "prod_url":"assets/img/products/01_airpods.png",
+      "description": "Cuffie bluetooth alla moda."
+    },
+    {
+      "id": 2,
+      "name": "Speaker JBL",
+      "price": 19.99,
+      "prod_url":"assets/img/products/02_speaker.png",
+      "description": "Portatile, potente, impermeabile."
+    },
+    {
+      "id": 3,
+      "name": "Cavo Iphone",
+      "price": 9.99,
+      "prod_url":"assets/img/products/03_cable.png",
+      "description": "Resistente, anti groviglio (2m)."
+    },
+    {
+      "id": 4,
+      "name": "Powerbank",
+      "price": 299,
+      "prod_url":"assets/img/products/04_powerbank.png",
+      "description": "Ricarica il tuo telefono ovunque sei."
+    },
+    {
+      "id": 5,
+      "name": "WebCam",
+      "price": 39.99,
+      "prod_url":"assets/img/products/05_cam.png",
+      "description": "Wireless, batteria di lunga durata."
+    },
+    {
+      "id": 6,
+      "name": "Tripod",
+      "price": 29.99,
+      "prod_url":"assets/img/products/06_tripod.png",
+      "description": "Professionale, stabile e versatile."
+    },
+    {
+      "id": 7,
+      "name": "Visore Notturno",
+      "price": 229.99,
+      "prod_url":"assets/img/products/07_night_vs.png",
+      "description": "Ottima visibilità in ogni condizione."
+    },
+    {
+      "id": 8,
+      "name": "FujiCam",
+      "price": 89.99,
+      "prod_url":"assets/img/products/08_fuji_cam.png",
+      "description": "Immortala i momenti più belli."
+    },
+    {
+      "id": 9,
+      "name": "Fuji Ricariche",
+      "price": 9.99,
+      "prod_url":"assets/img/products/09_fuji_card.png",
+      "description": "2 box da 10 pezzi per la tua cam."
+    },
+    {
+      "id": 10,
+      "name": "FireStick",
+      "price": 29.99,
+      "prod_url":"assets/img/products/10_firestick.png",
+      "description": "Rendi smart la tua vecchia TV."
+    },
+    {
+      "id": 11,
+      "name": "Mouse",
+      "price": 69.99,
+      "prod_url":"assets/img/products/11_mouse.png",
+      "description": "Mouse dalle alte prestazioni."
+    },
+    {
+      "id": 12,
+      "name": "Cuffie",
+      "price": 29.99,
+      "prod_url":"assets/img/products/12_cuffie.png",
+      "description": "Ottima qualità del suono."
+    }
+  ],
+  "prices": [
+    {
+      "type": "1-Giorno",
+      "price": 25.99
+    },
+    {
+      "type": "2-Giorni",
+      "price": 9.99
+    },
+    {
+      "type": "5-Giorni",
+      "price": 2.99
+    }
+  ]
+}
