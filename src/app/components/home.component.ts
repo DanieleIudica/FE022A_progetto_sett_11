@@ -7,7 +7,7 @@ import { ProductsService } from "../services/products.service";
   selector: "app-home",
   template: `
     <div class="container mt-2">
-      <h1 class="text-center">Simulazione Ecommerce</h1>
+      <h1 class="text-center">Ecommerce</h1>
       <div class="d-flex flex-md-row flex-column flex-wrap mt-4 mx-5 gap-2">
         <div *ngIf="loading" class="spinner-border d-flex mx-auto" role="status">
           <span class="visually-hidden">Loading...</span>
